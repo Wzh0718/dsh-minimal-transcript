@@ -1,0 +1,4 @@
+# Mount the client-only presentation plugin into the web profile.
+- insert:
+    - id: dsh-minimal-transcript
+      name: dsh-minimal-transcript
