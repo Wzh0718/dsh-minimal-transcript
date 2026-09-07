@@ -9,7 +9,7 @@ It adds a session-header switch that hides or shows thinking, tool-call, and Tur
 From the plugin's GitHub repository:
 
 ```bash
-dsh plugin --profile web add github:YOUR_GITHUB_USER/dsh-minimal-transcript
+dsh plugin --profile web add github:Wzh0718/dsh-minimal-transcript
 ```
 
 Then refresh the existing Web page. The session header contains **Show process** / **Hide process**. The selected state is stored in browser `localStorage` under `dsh-minimal-transcript.mode`.
