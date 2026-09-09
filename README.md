@@ -12,7 +12,11 @@ From the plugin's GitHub repository:
 dsh plugin --profile web add github:Wzh0718/dsh-minimal-transcript
 ```
 
-Then refresh the existing Web page. The session header contains **Show process** / **Hide process**. The selected state is stored in browser `localStorage` under `dsh-minimal-transcript.mode`.
+Then refresh the existing Web page. The session header contains an execution-graph icon; hover or focus it for the accessible label. The selected state is stored in browser `localStorage` under `dsh-minimal-transcript.mode`.
+
+### If DSH appears stuck
+
+Do not start a second `dsh web` process while an existing Web process is still running. DSH 0.1.1-rc.2 plugins such as the task board use a process lock; the second process can fail with `task-board ledger is already owned by process ...`. Stop the existing Web process first, then start it once. If the DSH plugin manager reports that agents are running, wait for active agents to finish before changing the plugin.
 
 ## Compatibility
 
