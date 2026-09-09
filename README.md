@@ -18,6 +18,10 @@ Then refresh the existing Web page. The session header contains **Show process**
 
 This package targets DSH `0.1.1-rc.2` and uses the `conversation.session.header.actions` slot shipped by that release. It does not depend on `@deepseek-ai/dsh-client-ui-chat`, which was introduced after that release.
 
+## Official ecosystem discovery
+
+This is a community plugin, not bundled into the DSH core distribution. The repository is tagged with the `dsh-plugin`, `deepseek-harness`, and `dsh` GitHub topics so it can be found by DSH plugin directories and community catalogs. To request listing in an official DSH community plugin discussion, share this repository together with the install command above; the plugin must remain explicitly labeled as third-party.
+
 ## Files
 
 - `lib/index.js` — host Loader entry.
