@@ -2,7 +2,7 @@
 
 A client-only DSH Web plugin for **DSH 0.1.1-rc.2**.
 
-It adds a session-header switch that hides or shows thinking, tool-call, and Turn-process presentation. It changes only browser rendering; Session events, tool execution, persistence, and model requests are untouched.
+It adds a compact **execution-graph icon** to the session header. Clicking the icon hides or shows thinking, tool-call, and Turn-process presentation. The header does not display a text label; the icon remains keyboard-accessible with an accessible name and tooltip. It changes only browser rendering; Session events, tool execution, persistence, and model requests are untouched.
 
 ## Install
 
